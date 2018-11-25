@@ -48,8 +48,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\NeoPixel_matrix_sprite_arduino;D:\PROGRAMS\Arduino\libraries\Adafruit-GFX-Library;D:\PROGRAMS\Arduino\libraries\Adafruit_NeoMatrix;D:\PROGRAMS\Arduino\libraries\Adafruit_NeoPixel;D:\PROGRAMS\Arduino\hardware\arduino\avr\libraries\SPI\src;D:\PROGRAMS\Arduino\libraries;D:\PROGRAMS\Arduino\hardware\arduino\avr\libraries;$(ProjectDir)..\..\..\Documents\Arduino\libraries;D:\PROGRAMS\Arduino\hardware\arduino\avr\cores\arduino;D:\PROGRAMS\Arduino\hardware\arduino\avr\variants\eightanaloginputs;D:\PROGRAMS\Arduino\hardware\tools\avr\avr\include\;D:\PROGRAMS\Arduino\hardware\tools\avr\avr\include\avr\;D:\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;D:\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;D:\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.NeoPixel_matrix_sprite_arduino.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Arduino Serial Matrix Display;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\libraries\Adafruit_NeoMatrix;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\libraries\Adafruit_NeoPixel;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\libraries\Adafruit-GFX-Library;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\libraries;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\arduino\avr\libraries;C:\Users\aleja\Documents\Arduino\libraries;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\arduino\avr\variants\eightanaloginputs;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\tools\avr\avr\include\;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\tools\avr\avr\include\avr\;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\PROGRAMS\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.Arduino Serial Matrix Display.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10804;ARDUINO_AVR_MINI;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -75,7 +75,7 @@
     <ProjectCapability Include="VisualMicro" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="NeoPixel_matrix_sprite_arduino.ino">
+    <None Include="Arduino Serial Matrix Display.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
@@ -86,6 +86,7 @@
     <ClInclude Include="Shape.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="__vm\.Arduino Serial Matrix Display.vsarduino.h" />
     <ClInclude Include="__vm\.NeoPixel_matrix_sprite_arduino.vsarduino.h" />
   </ItemGroup>
   <PropertyGroup>
